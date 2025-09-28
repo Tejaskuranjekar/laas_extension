@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "LAAS Summarizer & Explainer",
-  "version": "1.1",
-  "description": "Summarize long text, visualize insights, create fun meme summaries, track history, and more. Powered by LAAS.",
+  "version": "1.0",
+  "description": "Summarize long text, visualize insights, and explain in a simple way. Powered by LAAS.",
   "permissions": [
     "activeTab",
     "scripting",
@@ -11,16 +11,11 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+      "128": "icon.png"
     }
   },
-  "options_page": "options.html",
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "128": "icon.png"
   },
   "content_scripts": [
     {
