@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>LAAS Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>📚 LAAS Summarizer</h2>
+
+  <textarea id="inputText" placeholder="Paste or grab some text..." rows="6"></textarea>
+  
+  <div>
+    <label>Sentences:
+      <select id="sentCount">
+        <option value="2">2</option>
+        <option value="3" selected>3</option>
+        <option value="4">4</option>
+      </select>
+    </label>
+  </div>
+
+  <div>
+    <button id="summarize">📝 Normal Summary</button>
+    <button id="funSummary">😂 Fun Summary</button>
+  </div>
+
+  <div id="summaryArea" style="display:none;">
+    <h3>Summary</h3>
+    <div id="summaryText"></div>
+
+    <div>
+      <button id="copyBtn">📋 Copy</button>
+      <button id="whatsappBtn">💬 WhatsApp</button>
+    </div>
+  </div>
+
+  <h3>History (last 5)</h3>
+  <ul id="historyList"></ul>
+
+  <hr>
+  <button onclick="chrome.runtime.openOptionsPage()">⚙️ Settings</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

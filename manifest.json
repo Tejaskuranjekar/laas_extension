@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "LAAS Summarizer & Explainer",
+  "version": "1.1",
+  "description": "Summarize long text, visualize insights, add fun meme summaries, history, gamification & more. Powered by LAAS.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"]
+    }
+  ]
+}

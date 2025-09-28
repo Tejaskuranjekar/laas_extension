@@ -1,0 +1,33 @@
+body { 
+  font-family: Arial, sans-serif; 
+  width: 380px; 
+  padding: 12px; 
+}
+h2 { 
+  margin: 6px 0; 
+}
+textarea { 
+  width: 100%; 
+  box-sizing: border-box; 
+  margin-bottom: 8px;
+}
+button { 
+  margin-right: 8px; 
+  padding: 6px 10px; 
+  margin-top: 5px;
+}
+#summaryArea {
+  margin-top: 10px;
+}
+#summaryText { 
+  white-space: pre-wrap; 
+  background: #f6f6f6; 
+  padding: 8px; 
+  border-radius: 6px; 
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#historyList {
+  font-size: 14px;
+  padding-left: 20px;
+}

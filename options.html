@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>LAAS Settings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>⚙️ LAAS Settings</h2>
+
+  <label>Default Summary Length:
+    <select id="summaryLength">
+      <option value="2">2</option>
+      <option value="3" selected>3</option>
+      <option value="4">4</option>
+    </select>
+  </label>
+
+  <br><br>
+  <label>
+    <input type="checkbox" id="darkMode"> Enable Dark Mode
+  </label>
+
+  <br><br>
+  <button id="saveBtn">💾 Save</button>
+  <p id="status"></p>
+
+  <p><a href="about.html">ℹ️ About LAAS</a></p>
+
+  <script src="options.js"></script>
+</body>
+</html>
