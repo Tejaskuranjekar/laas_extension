@@ -12,7 +12,7 @@
   },
   "options_page": "options.html",
   "icons": {
-    "128": "screenshot1.png"
+    "128": "icon.png"
   },
   "content_scripts": [
     {
